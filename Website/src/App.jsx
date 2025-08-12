@@ -190,7 +190,7 @@ function App() {
     <>
       <Whats />
       <CursorCircles />
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <Navbar cart={cart} />
         <Routes>
           <Route path="/" element={<Home />} />
