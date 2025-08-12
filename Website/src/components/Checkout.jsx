@@ -117,7 +117,7 @@ function Checkout({ cart = [] }) {
   };
 
   const openWhatsApp = (text) => {
-    const rawNumber = '923331876698';
+    const rawNumber = '923227646966';
     const phoneParam = `+${rawNumber}`;
     const encodedText = encodeURIComponent(text);
     const isAndroid = /Android/i.test(navigator.userAgent);
